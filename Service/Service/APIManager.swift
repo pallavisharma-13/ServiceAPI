@@ -7,12 +7,12 @@
 
 import Foundation
  
-class APIManager {
-    static let shared = APIManager()
+public class APIManager {
+   public static let shared = APIManager()
     
     private init() {}
     
-    func request<T: Codable>(endpoint: String, method: String, parameters: [String: Any]?, completion: @escaping (Result<T, Error>) -> Void) {
+   public func request<T: Codable>(endpoint: String, method: String, parameters: [String: Any]?, completion: @escaping (Result<T, Error>) -> Void) {
         // Perform the API request with the provided endpoint, method, and parameters
         let url = URL(string: endpoint)
         // Assuming you're using URLSession to make the API request

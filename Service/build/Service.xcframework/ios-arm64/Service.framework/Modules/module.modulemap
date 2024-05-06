@@ -1,0 +1,11 @@
+framework module Service {
+  umbrella header "Service.h"
+  export *
+
+  module * { export * }
+}
+
+module Service.Swift {
+  header "Service-Swift.h"
+  requires objc
+}

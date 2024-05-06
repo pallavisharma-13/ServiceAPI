@@ -1,0 +1,25 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/manish1/Library/Developer/Xcode/DerivedData/Service-drnqwzjvkdtnyagrggqewewxwdcg/Build/Intermediates.noindex/ArchiveIntermediates/Service/InstallationBuildProductsLocation/Library/Frameworks/Service.framework/Service'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x2FA10, size: 0x8, addend: 0x0, symName: _ServiceVersionString, symObjAddr: 0x0, symBinAddr: 0x3C60, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x2FA45, size: 0x8, addend: 0x0, symName: _ServiceVersionNumber, symObjAddr: 0x28, symBinAddr: 0x3C88, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x2FAAA, size: 0x8, addend: 0x0, symName: '_$s7Service10APIManagerC6sharedACvpZ', symObjAddr: 0x37E0, symBinAddr: 0x83B0, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0x2FAD5, size: 0x8, addend: 0x0, symName: '_$s7Service10APIManagerC6sharedACvgZ', symObjAddr: 0x30, symBinAddr: 0x2680, symSize: 0x30 }
+  - { offsetInCU: 0xB1, offset: 0x2FB0C, size: 0x8, addend: 0x0, symName: '_$s7Service10APIManagerC7request8endpoint6method10parameters10completionySS_SSSDySSypGSgys6ResultOyxs5Error_pGctSeRzSERzlF', symObjAddr: 0x60, symBinAddr: 0x26B0, symSize: 0x1D0 }
+  - { offsetInCU: 0x14C, offset: 0x2FBA7, size: 0x8, addend: 0x0, symName: '_$s7Service10APIManagerC7request8endpoint6method10parameters10completionySS_SSSDySSypGSgys6ResultOyxs5Error_pGctSeRzSERzlFy10Foundation4DataVSg_So13NSURLResponseCSgsAM_pSgtYbcfU_', symObjAddr: 0x2B0, symBinAddr: 0x2900, symSize: 0x1F0 }
+  - { offsetInCU: 0x239, offset: 0x2FC94, size: 0x8, addend: 0x0, symName: '_$s7Service10APIManagerCfd', symObjAddr: 0x640, symBinAddr: 0x2C90, symSize: 0x10 }
+  - { offsetInCU: 0x266, offset: 0x2FCC1, size: 0x8, addend: 0x0, symName: '_$s7Service10APIManagerCfD', symObjAddr: 0x650, symBinAddr: 0x2CA0, symSize: 0x20 }
+  - { offsetInCU: 0x294, offset: 0x2FCEF, size: 0x8, addend: 0x0, symName: '_$s7Service10APIManagerC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x2650, symSize: 0x30 }
+  - { offsetInCU: 0x2D5, offset: 0x2FD30, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x230, symBinAddr: 0x2880, symSize: 0x40 }
+  - { offsetInCU: 0x2E9, offset: 0x2FD44, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgWOc', symObjAddr: 0x270, symBinAddr: 0x28C0, symSize: 0x40 }
+  - { offsetInCU: 0x2FD, offset: 0x2FD58, size: 0x8, addend: 0x0, symName: '_$s7Service10APIManagerC7request8endpoint6method10parameters10completionySS_SSSDySSypGSgys6ResultOyxs5Error_pGctSeRzSERzlFy10Foundation4DataVSg_So13NSURLResponseCSgsAM_pSgtYbcfU_TA', symObjAddr: 0x4C0, symBinAddr: 0x2B10, symSize: 0x30 }
+  - { offsetInCU: 0x311, offset: 0x2FD6C, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgSo13NSURLResponseCSgs5Error_pSgIeghggg_So6NSDataCSgAGSo7NSErrorCSgIeyBhyyy_TR', symObjAddr: 0x4F0, symBinAddr: 0x2B40, symSize: 0xF0 }
+  - { offsetInCU: 0x329, offset: 0x2FD84, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x5E0, symBinAddr: 0x2C30, symSize: 0x20 }
+  - { offsetInCU: 0x33D, offset: 0x2FD98, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x600, symBinAddr: 0x2C50, symSize: 0x10 }
+  - { offsetInCU: 0x351, offset: 0x2FDAC, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgWOh', symObjAddr: 0x610, symBinAddr: 0x2C60, symSize: 0x30 }
+  - { offsetInCU: 0x365, offset: 0x2FDC0, size: 0x8, addend: 0x0, symName: '_$s7Service10APIManagerCMa', symObjAddr: 0x670, symBinAddr: 0x2CC0, symSize: 0x20 }
+  - { offsetInCU: 0x379, offset: 0x2FDD4, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOe', symObjAddr: 0x6C0, symBinAddr: 0x2D10, symSize: 0x20 }
+  - { offsetInCU: 0x38D, offset: 0x2FDE8, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x6E0, symBinAddr: 0x2D30, symSize: 0x40 }
+  - { offsetInCU: 0x3A1, offset: 0x2FDFC, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x720, symBinAddr: 0x2D70, symSize: 0x3C }
+...

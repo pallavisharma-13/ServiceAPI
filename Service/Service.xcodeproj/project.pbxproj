@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		D57BB8D12BE3963100EE75AA /* Service.docc in Sources */ = {isa = PBXBuildFile; fileRef = D57BB8D02BE3963100EE75AA /* Service.docc */; };
 		D57BB8D22BE3963100EE75AA /* Service.h in Headers */ = {isa = PBXBuildFile; fileRef = D57BB8CF2BE3963100EE75AA /* Service.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D57BB8D92BE3970200EE75AA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BB8D82BE3970200EE75AA /* APIManager.swift */; };
+		D595EE2E2BE7290100730416 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595EE2D2BE7290000730416 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D57BB8CC2BE3963100EE75AA /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57BB8CF2BE3963100EE75AA /* Service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
 		D57BB8D02BE3963100EE75AA /* Service.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Service.docc; sourceTree = "<group>"; };
-		D57BB8D82BE3970200EE75AA /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D595EE2D2BE7290000730416 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				D57BB8CF2BE3963100EE75AA /* Service.h */,
-				D57BB8D82BE3970200EE75AA /* APIManager.swift */,
+				D595EE2D2BE7290000730416 /* APIManager.swift */,
 				D57BB8D02BE3963100EE75AA /* Service.docc */,
 			);
 			path = Service;
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D57BB8D92BE3970200EE75AA /* APIManager.swift in Sources */,
+				D595EE2E2BE7290100730416 /* APIManager.swift in Sources */,
 				D57BB8D12BE3963100EE75AA /* Service.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,9 +278,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,9 +313,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
